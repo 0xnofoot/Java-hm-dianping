@@ -27,6 +27,7 @@ public class MvcConfig implements WebMvcConfigurer {
                         "/shop-type/**",
                         "/upload/**",
                         "/voucher/**"
+//                        "/voucher-order/**"
                 ).order(1);
 
         // token 刷新拦截器
